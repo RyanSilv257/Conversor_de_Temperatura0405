@@ -32,8 +32,20 @@ public class Conversor {
             //Saída
             System.out.println(fah + "º Fahrenheit");
 
+            
         } else if(op == 2){
+            //José
+
             System.out.println("\n\t\t\t -- Fahrenheit para Celsius -- \n");
+            //Entrada
+            System.out.print("Informe os graus Fahrenheit: ");
+                    fah = entrada.nextInt();
+
+            //Processamento
+            cel = (fah - 32) * 5 / 9 ;
+
+            //Saída
+            System.out.println(cel + "º Celsius");
 
 
         } else if(op == 3){
